@@ -1,6 +1,5 @@
 <?php
-require_once "_sesiones.php";
-
+require_once "_dao.php";
 if (haySesionIniciada()) {
     redireccionar("productos-listado.php");
 }
